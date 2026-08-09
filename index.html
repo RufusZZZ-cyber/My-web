@@ -183,7 +183,7 @@
         let remainingAttempts = 8;
         let isGameOver = false;
 
-        // 修改为直接同步加载内嵌数据
+        // 同步读取内嵌数据
         function loadPoemDatabase() {
             poems = getBuiltinPoems();
             document.getElementById('totalPoemCount').textContent = poems.length;
